@@ -1,4 +1,4 @@
-# 🔐 RC4 — Rivest Cipher 4
+# RC4 — Rivest Cipher 4
 ## Implementasi Stream Cipher dalam Python
 
 ---
@@ -9,7 +9,7 @@ RC4 (Rivest Cipher 4) adalah algoritma kriptografi jenis **stream cipher** yang 
 
 ---
 
-## 🌐 Kegunaan Utama di Dunia Nyata
+## Kegunaan Utama di Dunia Nyata
 
 | Teknologi | Keterangan |
 |---|---|
@@ -22,7 +22,7 @@ RC4 (Rivest Cipher 4) adalah algoritma kriptografi jenis **stream cipher** yang 
 
 ---
 
-## 🔑 Pembangkitan Kunci (Key Generation)
+## Pembangkitan Kunci (Key Generation)
 
 RC4 tidak membangkitkan kunci baru — ia menggunakan kunci yang diberikan langsung oleh pengguna untuk menginisialisasi state internal melalui proses yang disebut **KSA (Key Scheduling Algorithm)**.
 
@@ -62,7 +62,7 @@ RC4 menggunakan skema **kunci simetris** — kunci yang sama digunakan untuk enk
 
 ---
 
-## 🔒 Proses Enkripsi
+## Proses Enkripsi
 
 Enkripsi RC4 dilakukan dalam dua tahap: pembangkitan keystream menggunakan PRGA, lalu operasi XOR antara keystream dan plaintext.
 
@@ -112,7 +112,7 @@ Ciphertext :         727eeeac          (dalam format hex)
 
 ---
 
-## 🔓 Proses Dekripsi
+## Proses Dekripsi
 
 Dekripsi RC4 **identik** dengan enkripsi. Tidak ada fungsi terpisah — cukup jalankan `rc4()` yang sama dengan kunci yang sama pada ciphertext.
 
@@ -127,9 +127,9 @@ Dekripsi : Ciphertext XOR Keystream = Plaintext
 
 ---
 
-## ⚖️ Kelebihan & Kelemahan
+## Kelebihan & Kelemahan
 
-### ✅ Kelebihan
+### Kelebihan
 
 | Aspek | Penjelasan |
 |---|---|
@@ -139,7 +139,7 @@ Dekripsi : Ciphertext XOR Keystream = Plaintext
 | **Fleksibel** | Dapat mengenkripsi data dengan panjang berapa pun tanpa perlu padding |
 | **Simetris** | Satu fungsi untuk enkripsi dan dekripsi, menyederhanakan implementasi |
 
-### ❌ Kelemahan
+### Kelemahan
 
 | Aspek | Penjelasan |
 |---|---|
@@ -152,7 +152,7 @@ Dekripsi : Ciphertext XOR Keystream = Plaintext
 
 ---
 
-## 🚀 Cara Menjalankan Program
+## Cara Menjalankan Program
 
 ```bash
 python rc4.py
