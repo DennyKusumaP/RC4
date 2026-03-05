@@ -169,17 +169,3 @@ python rc4.py
 ```
 
 ---
-
-## ⚠️ Disclaimer
-
-> Program ini dibuat **semata-mata untuk tujuan edukasi** dalam mempelajari kriptografi dan implementasi algoritma RC4. RC4 **tidak direkomendasikan** untuk penggunaan pada sistem produksi atau aplikasi yang memerlukan keamanan tinggi, mengingat berbagai kelemahan kriptografis yang telah diketahui dan dilarang penggunaannya dalam standar modern (RFC 7465).
-
----
-
-## 📜 Lisensi
-
-Proyek ini menggunakan lisensi [MIT](LICENSE). Bebas digunakan untuk keperluan belajar dan pengembangan.
-
----
-
-> Dibuat dengan ❤️ untuk tujuan edukasi kriptografi.
