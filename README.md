@@ -3,7 +3,7 @@
 
 ---
 
-## 📖 Pengantar Singkat
+## Pengantar Singkat
 
 RC4 (Rivest Cipher 4) adalah algoritma kriptografi jenis **stream cipher** yang dirancang oleh **Ron Rivest** dari RSA Security pada tahun **1987**. Selama lebih dari dua dekade, RC4 menjadi salah satu algoritma enkripsi paling banyak digunakan di dunia karena kesederhanaan implementasinya dan kecepatannya dalam memproses data.
 
